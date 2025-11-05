@@ -1,4 +1,4 @@
-<div align="center">
+just<div align="center">
 
 # ferriouscolor.nvim
 
@@ -49,10 +49,6 @@ require('my-theme').setup({
     overrides = {}, -- A dictionary of group names, can be a function returning a dictionary or a table.
 })
 ```
-
-- **The `colorscheme()` function**
-
-This function can be used to set the colorscheme in your editor, however, if it doesn't work for you, you can always use `vim.cmd.colorscheme('my-theme')`.
 
 ## Contributing
 
