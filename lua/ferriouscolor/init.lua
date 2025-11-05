@@ -42,7 +42,7 @@ local function set_groups()
     Normal = { fg = colorscheme.mainText, bg = bg },
     LineNr = { fg = colorscheme.lineNumberText },
     ColorColumn = {
-      bg = utils.shade(colorscheme.linkText, 0.5, colorscheme.editorBackground),
+      bg = colorscheme.barColor,
     },
     Conceal = {},
     Cursor = { fg = colorscheme.editorBackground, bg = colorscheme.mainText },
